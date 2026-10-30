@@ -43,21 +43,21 @@ Ticket status:] The simulator displayed the ticket as Resolved.
 Post-reset login:] A successful login was not independently documented in the available evidence.
 
 ## 7. Technical Skills Demonstrated
-- [User directory navigation and account lookup]
-- [Identity verification and authentication workflows]
-- [Password-reset procedures and temporary credentials]
-- [Secure account-recovery practices]
-- [User communication and support documentation]
-- [Incident prioritization based on business impact]
-- [Following a structured troubleshooting process]
-
+- User directory navigation and account lookup
+- Identity verification and authentication workflows
+- Password-reset procedures and temporary credentials
+- Secure account-recovery practices
+- User communication and support documentation
+- Incident prioritization based on business impact
+- Following a structured troubleshooting process
+  
 ## 8. Lessons Learned
 Password-expiration issues may require additional troubleshooting when the user cannot change their password through the normal login process.
 
 Verifying identity before resetting credentials is essential to protecting user accounts. Clear communication also helps users understand how to regain access and what they must do after receiving a temporary password.
 
 ## 9. Evidence
-- Screenshot: (https://github.com/Rae12/it-support-systems-admin-labs/blob/main/screenshots/Ticket001.PNG)
+- Screenshot: ([https://github.com/Rae12/it-support-systems-admin-labs/blob/main/screenshots/Ticket001.PNG](https://github.com/Rae12/it-support-systems-admin-labs/blob/main/screenshots/Ticket001.PNG))
 - Notes: [Add any relevant observations]
 
 ## 10. Reflection
