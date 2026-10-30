@@ -58,7 +58,7 @@ Verifying identity before resetting credentials is essential to protecting user 
 
 ## 9. Evidence
 - Screenshot: ![Ticket 001 - Password Expired](../screenshots/Ticket001.PNG)
-- Notes: [Add any relevant observations]
+
 
 ## 10. Reflection
 What would I do differently or investigate further
