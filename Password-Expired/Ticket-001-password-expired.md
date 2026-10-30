@@ -57,7 +57,7 @@ Password-expiration issues may require additional troubleshooting when the user 
 Verifying identity before resetting credentials is essential to protecting user accounts. Clear communication also helps users understand how to regain access and what they must do after receiving a temporary password.
 
 ## 9. Evidence
-- Screenshot: ([Ticket001.PNG](screenshots/Ticket%2001.PNG))
+- Screenshot: ([Ticket001.PNG](screenshots/Ticket001.PNG))
 - Notes: [Add any relevant observations]
 
 ## 10. Reflection
