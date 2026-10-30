@@ -1,5 +1,5 @@
 
-# Ticket 001: [Expired Password Preventing Computer Login]
+# Ticket 001: Expired Password Preventing Computer Login
 
 ## Ticket Information
 - **Platform:** ServiceDesk Simulator
@@ -22,13 +22,13 @@ The inability to access the development environment could delay development work
 and affect the team's delivery timeline.
 
 ## 3. Troubleshooting Performed
-1. [Located the user account:] Opened Tools → Directory, searched for the username mgarcia, and selected the matching directory entry.
-2. [Opened authentication settings:] Navigated to the Authentication tab.
-3. [Initiated identity verification:] Selected Send Verification Code.
-4. [Verified the user's identity:] Contacted the user through Company Chat, requested the verification code, and entered it into the simulator.
-5. [Reset the password:] After the identity verification succeeded, selected Reset Password to generate a temporary password.
-6. [Delivered the temporary password:] Sent the temporary password through Company Chat, following the simulator's specified workflow rather than sending it by email.
-7. [Communicated next steps:] Instructed the user to change the temporary password at their first login.
+1. Located the user account: Opened Tools → Directory, searched for the username mgarcia, and selected the matching directory entry.
+2. Opened authentication settings: Navigated to the Authentication tab.
+3. Initiated identity verification: Selected Send Verification Code.
+4. Verified the user's identity: Contacted the user through Company Chat, requested the verification code, and entered it into the simulator.
+5. Reset the password: After the identity verification succeeded, selected Reset Password to generate a temporary password.
+6. Delivered the temporary password: Sent the temporary password through Company Chat, following the simulator's specified workflow rather than sending it by email.
+7. Communicated next steps: Instructed the user to change the temporary password at their first login.
 
 ## 4. Resolution
 The user's identity was verified, a temporary password was generated, and the user was provided with instructions to change it at their first login.
@@ -57,7 +57,7 @@ Password-expiration issues may require additional troubleshooting when the user 
 Verifying identity before resetting credentials is essential to protecting user accounts. Clear communication also helps users understand how to regain access and what they must do after receiving a temporary password.
 
 ## 9. Evidence
-- Screenshot: ([https://github.com/Rae12/it-support-systems-admin-labs/blob/main/screenshots/Ticket001.PNG](https://github.com/Rae12/it-support-systems-admin-labs/blob/main/screenshots/Ticket001.PNG))
+- Screenshot: ([Ticket001.PNG](https://github.com/Rae12/it-support-systems-admin-labs/blob/main/screenshots/Ticket001.PNG))
 - Notes: [Add any relevant observations]
 
 ## 10. Reflection
