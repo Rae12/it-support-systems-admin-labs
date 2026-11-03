@@ -1,4 +1,4 @@
-# Ticket 003: Customer Support Desktop Will Not Turn On
+# Ticket 002: Customer Support Desktop Will Not Turn On
 
 ## Ticket Information
 - **Platform:** ServiceDesk Simulator
@@ -88,7 +88,7 @@ I also learned that deploying a replacement computer involves more than just bui
 
 ## 8. Evidence
 
-- Screenshot: ![Ticket 003 - Desktop Power Failure](../screenshots/Ticket003.PNG)
+- Screenshot: ![Ticket 003 - Desktop Power Failure](../screenshots/Ticket002.PNG)
 
 ## 9. Reflection
 
