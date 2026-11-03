@@ -1,10 +1,10 @@
-# Ticket 003: Customer Support Desktop Completely Unresponsive
+# Ticket 003: Customer Support Desktop Will Not Turn On
 
 ## Ticket Information
 - **Platform:** ServiceDesk Simulator
-- **Status:** Open – Investigation Required
+- **Status:** Replacement Deployment Required
 - **Priority:** High
-- **Ticket Type:** Hardware / Desktop Power Failure
+- **Ticket Type:** Hardware / Desktop Power Issue
 - **Environment:** Simulated IT support environment
 - **Reported By:** Quinn Adams
 - **Email:** qadams@servicedesk-simulator.com
@@ -14,35 +14,91 @@
 
 ## 1. Issue Summary
 
-Quinn Adams reported that their desktop computer would not power on at the beginning of the workday.
+Quinn Adams reported that their desktop would not turn on when they arrived at work. Pressing the power button did nothing. There were no lights, fan activity, or sounds coming from the computer.
 
-When pressing the power button, the computer showed no signs of activity. There were no indicator lights, fan movement, or audible beeps.
-
-The user attempted several basic troubleshooting steps, including pressing the power button multiple times and testing the wall outlet with another device. The outlet was confirmed to be working, but the desktop remained completely unresponsive.
+The agent had already tried pressing the power button several times and testing the wall outlet with another device. Since the outlet was working, I needed to rule out the power cable before moving forward with a replacement.
 
 ## 2. Business Impact
 
-This ticket should be treated as High priority because the affected employee works in Customer Support and is unable to access their workstation.
+This issue was marked High priority because Quinn works in Customer Support and could not access their workstation.
 
-The employee has a full queue of incoming calls waiting, but cannot take calls without a functioning computer.
+They had a full queue of calls waiting, but without a working computer, they were unable to assist customers. Leaving the issue unresolved could also increase customer wait times.
 
-This creates a disruption to customer service operations and may increase call wait times for customers.
+Getting a replacement computer to the agent as quickly as possible was important to getting them back to work.
 
 ## 3. Troubleshooting Performed
 
-1. **Attempted to power on the desktop:** Pressed the power button several times, but the computer did not respond.
-2. **Checked the electrical outlet:** Connected another device to the wall outlet to confirm that it was supplying power.
-3. **Confirmed outlet functionality:** The other device worked, indicating that the wall outlet was operational.
-4. **Observed desktop behavior:** Confirmed there were no indicator lights, fan movement, or audible beeps.
-5. **Identified the remaining issue:** The desktop remained completely unresponsive after the user's initial troubleshooting attempts.
+1. **Checked the power source:** Contacted Quinn through Company Chat and asked them to try a known-working outlet and a different power cable.
+2. **Confirmed the computer was unresponsive:** Even after trying another outlet and power cable, the desktop showed no lights or fan activity.
+3. **Determined a replacement was needed:** Since the computer still would not power on, I moved forward with the replacement process.
+4. **Confirmed the computer type:** Messaged Quinn through Company Chat to verify that the original machine was a desktop. This helped ensure the replacement would be the correct type.
 
 ## 4. Resolution
 
-**Current Status:** Investigation Required.
+After confirming that the desktop was still unresponsive, I used the ServiceDesk Simulator to build and ship a replacement computer.
 
-The desktop has not been restored to working condition.
+### Building the Replacement Computer
 
-Since the wall outlet was confirmed to be functional and the desktop shows no signs of receiving power, further hardware and power-delivery troubleshooting is required.
+1. Opened **Tools → Computer Deployment**.
+2. Selected **Server Imaging** to build the replacement.
+3. Checked **Documentation → Hardware & Assets → Choosing a PC Setup** to make sure I was using the correct setup method. Customer Support agents require Server Imaging rather than Cloud Provisioning.
+4. Completed the build and confirmed that the replacement computer was available on the PC Shelf.
+
+### Shipping the Replacement
+
+5. Contacted Quinn through Company Chat and requested the site's receiving dock address. Since Quinn works on-site, the computer needed to go to the workplace instead of their home.
+6. Opened **Tools → Ship Manager**.
+7. Kept Quinn as the recipient and entered the receiving dock address.
+8. Under **Select a computer to ship**, selected the replacement desktop.
+9. Checked **Include return label** so the original computer could be sent back.
+10. Left the shipping speed set to **Rush Priority (Instant)**.
+11. Selected **Ship** to send the replacement.
+
+### Returning the Original Computer
+
+Once the replacement arrives, Quinn will use the prepaid return label to send the defective desktop back.
+
+## 5. Verification
+
+- **Power check:** Quinn tested another outlet and a different power cable, but the desktop still would not turn on.
+- **Replacement build:** The replacement was built using Server Imaging, as required for Customer Support.
+- **Shipping address:** The site's receiving dock address was entered instead of the employee's home address.
+- **Return label:** A prepaid return label was included with the shipment.
+- **Shipping speed:** Rush Priority (Instant) was selected.
+- **Final verification:** The replacement still needs to be delivered and tested to confirm that Quinn can log in and resume taking calls.
+- **Equipment return:** The original desktop still needs to be returned using the prepaid label.
+
+## 6. Technical Skills Demonstrated
+
+- Basic desktop hardware troubleshooting
+- Checking power sources and power cables
+- Identifying when a computer needs replacement
+- Building and imaging replacement computers
+- Following hardware deployment documentation
+- Using computer deployment and shipping tools
+- Coordinating equipment delivery and returns
+- Communicating with users through Company Chat
+- Prioritizing issues based on business impact
+
+## 7. Lessons Learned
+
+This ticket showed me the importance of checking the simple things before deciding that a computer needs to be replaced. Testing another outlet and power cable helped rule out some basic power issues.
+
+I also learned that deploying a replacement computer involves more than just building the machine. You have to select the correct setup method, confirm the employee's device type, make sure the equipment goes to the right location, and include a return label for the defective computer.
+
+## 8. Evidence
+
+- Screenshot: ![Ticket 003 - Desktop Power Failure](../screenshots/Ticket003.PNG)
+
+## 9. Reflection
+
+**What would I do differently or investigate further in a real-world IT environment?**
+
+In a real IT environment, I would record the original computer's asset tag, serial number, and hardware specifications before arranging the replacement.
+
+Once the replacement arrived, I would make sure it powers on, verify that the imaging process completed correctly, and confirm that Quinn can log in and access the tools needed for Customer Support.
+
+I would also follow up on the return shipment and make sure the equipment inventory was updated so the organization has an accurate record of the replacement.is required.
 
 Potential areas to investigate include:
 - Power cable connections and condition.
